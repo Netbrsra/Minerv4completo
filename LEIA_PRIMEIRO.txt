@@ -1,0 +1,11 @@
+CORREÇÃO DE DIREÇÃO E TEXTURA
+
+1) Ao colocar o Miner, a frente do bloco aponta para a mesma direção horizontal em que o jogador está olhando.
+2) Se a frente está apontada para NORTH, ele minera NORTH. EAST minera EAST, SOUTH minera SOUTH e WEST minera WEST.
+3) O bloco agora possui blockstate com FACING e rotação do modelo para mostrar a textura no chão.
+4) As texturas estão incluídas no mod em:
+   src/main/resources/assets/automaticminer/textures/blocks/
+5) O modelo do bloco está em:
+   src/main/resources/assets/automaticminer/models/block/automatic_miner.json
+6) O blockstate está em:
+   src/main/resources/assets/automaticminer/blockstates/automatic_miner.json
